@@ -1,0 +1,113 @@
+html, * {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  box-sizing: border-box;
+}
+
+header {
+    background-color: #ffffff;
+}
+
+div.navbar-header {
+    color: #215D9C;
+}
+
+ul.nav li a {
+  color: #000000;
+  font-size: 16px;
+}
+
+ul.nav li a:hover {
+    background: #215D9C;
+}
+
+a.navbar-brand {
+  font-size: 30px;
+  color: #215D9C;
+}
+
+div.bg {
+  background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url(https://www.whitetruffle.com/buddy_group/img/home-cover-bg.jpg);
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 500px;
+  color: white;
+}
+
+div.bg .bg-text {
+  padding: 100px;
+}
+
+div.bg .bg-text h1 {
+  font-size: 60px;
+  font-weight: 400;
+}
+
+button {
+  border: none;
+  width: 150px;
+}
+
+button.btn-primary {
+  background: transparent;
+  border: 1px solid #215D9C;
+  color: white;
+  margin: 5px;
+}
+
+button.btn-primary:hover {
+    background: #215D9C;
+}
+
+button.btn-default {
+  background: #263248;
+  border: none;
+  color: white;
+}
+
+div.banner {
+  height: 100px;
+  background-color: #263248;
+  font-size: 25px;
+  color: #fff;
+  position: relative;
+}
+div.banner .wrapper {
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+  margin-left: 10px;
+}
+div.banner span.orange {
+    color: #215D9C;
+  font-weight: bold;
+}
+
+div.banner button {
+  margin-left: 50px;
+  width: 200px;
+  background-color: #215D9C;
+  font-size: 20px;
+}
+
+div.sec {
+  height: 400px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+div.sec h1 {
+  text-align: center;
+  font-weight: 700;
+}
+div.sec hr {
+  width: 50px;
+  border: 1.5px solid #215D9C;
+}
+
+div.sec.second {
+  height: 450px;
+  background: #f4f4f4;
+  border-top: 5px solid #f1f1f1;
+}
